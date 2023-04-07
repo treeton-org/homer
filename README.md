@@ -13,7 +13,13 @@ docker compose --env-file .env.local up
 
 ## Deploy on server
 
-Auto [GitHub action](https://github.com/treeton-org/homer/actions/workflows/deploy.yaml)
+### Set secrets
+
+* `SSH_DEPLOY_PRIVATE_KEY` - e.g. `AAAwEAA ...`
+
+### Push code and check GitHub actions
+
+[GitHub action](https://github.com/treeton-org/homer/actions/workflows/deploy.yaml)
 
 ## Docker network scheme
 
