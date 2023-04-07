@@ -1,0 +1,61 @@
+# Documentation
+# @see https://github.com/bastienwirtz/homer
+
+# Icons
+# @see https://fontawesome.com/v5/search
+
+header: false
+footer: false
+theme: sui
+colors:
+  light:
+    highlight-primary: transparent
+    highlight-secondary: "#48F"
+    highlight-hover: "#444"
+    text-subtitle: "#444"
+  dark:
+    background: "#225"
+    highlight-primary: transparent
+    highlight-secondary: "#48F"
+    highlight-hover: "#203"
+    text-subtitle: "#67E"
+links: []
+services:
+  - name: "Application"
+    items:
+      - name: "Tree TON"
+        subtitle: "treeton.localhost"
+        logo: "assets/items/applications/treeton.svg"
+        url: "http://treeton.localhost"
+      - name: "GitHub"
+        subtitle: "treeton-org"
+        logo: "assets/items/applications/github.svg"
+        url: "https://github.com/treeton-org"
+      - name: "Figma"
+        subtitle: "Design, logos and illustrations"
+        logo: "assets/items/applications/figma.svg"
+        url: "https://www.figma.com/file/rfDi7EGAewhooWI5ChBMmH"
+      - name: "Focalboard"
+        subtitle: "Tasks board"
+        logo: "assets/items/applications/focalboard.svg"
+        url: "https://focalboard.treeton.org/shared/b86uio46pnjy47b17fjzq1rkmge/v95cxqkdwkigrbjjpqbj6t6arxo?r=keghjrddtx8cdwufje59u9pnk9w"
+      - name: "Resources"
+        subtitle: "Google sheets"
+        logo: "assets/items/applications/google-sheets.svg"
+        url: "https://docs.google.com/spreadsheets/d/1FF8HvL2q94tn5wrNaE0Hrl424Csc-NwSt9DCRj05AXc"
+
+  - name: "Telegram"
+    items:
+      - name: "Tree TON"
+        logo: "assets/items/chats/treeton_chat.svg"
+        subtitle: "chat"
+        url: "https://t.me/treeton_chat"
+
+  - name: "Administration"
+    items:
+      - name: "Traefik"
+        logo: "assets/items/admin/traefik.svg"
+        url: "http://traefik.treeton.localhost"
+      - name: "Tempo"
+        logo: "assets/items/admin/tempo.svg"
+        url: "http://tempo.treeton.localhost/metrics"
