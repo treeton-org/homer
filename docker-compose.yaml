@@ -9,7 +9,6 @@ services:
       - traefik
     volumes:
       - ./docker/homer/assets:/www/assets
-      - ./docker/homer/${CONFIG}:/www/assets/config.yml
     environment:
       - INIT_ASSETS=0
     labels:

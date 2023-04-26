@@ -29,6 +29,6 @@ flowchart TD
     traefik(traefik)-->|traefik|homer(homer)
 
 subgraph Homer
-    homer(homer)
+    homer
 end
 ```

@@ -1,0 +1,99 @@
+# Documentation
+# @see https://github.com/bastienwirtz/homer
+
+# Icons
+# @see https://fontawesome.com/v5/search
+
+header: false
+footer: false
+theme: sui
+colors:
+  light:
+    highlight-primary: transparent
+    highlight-secondary: "#48F"
+    highlight-hover: "#444"
+    text-subtitle: "#444"
+  dark:
+    background: "#225"
+    highlight-primary: transparent
+    highlight-secondary: "#48F"
+    highlight-hover: "#203"
+    text-subtitle: "#67E"
+links: []
+services:
+  - name: "Team"
+    items:
+      - name: "GitHub"
+        subtitle: "treeton-org"
+        logo: "assets/items/github.svg"
+        url: "https://github.com/treeton-org"
+      - name: "Focalboard"
+        subtitle: "Tasks board"
+        logo: "assets/items/focalboard.svg"
+        url: "https://focalboard.treeton.org/shared/b86uio46pnjy47b17fjzq1rkmge/v95cxqkdwkigrbjjpqbj6t6arxo?r=keghjrddtx8cdwufje59u9pnk9w"
+      - name: "Resources"
+        subtitle: "Google sheets"
+        logo: "assets/items/google-sheets.svg"
+        url: "https://docs.google.com/spreadsheets/d/1FF8HvL2q94tn5wrNaE0Hrl424Csc-NwSt9DCRj05AXc"
+
+  - name: "Tree TON"
+    items:
+      - name: "Tree TON"
+        subtitle: "treeton.org"
+        logo: "assets/items/treeton.svg"
+        url: "https://treeton.org"
+      - name: "GitHub"
+        subtitle: "treeton-org/main"
+        logo: "assets/items/github.svg"
+        url: "https://github.com/treeton-org/main"
+      - name: "Figma"
+        subtitle: "design"
+        logo: "assets/items/figma.svg"
+        url: "https://www.figma.com/file/rfDi7EGAewhooWI5ChBMmH"
+
+  - name: "Публичные чаты"
+    items:
+      - name: "treeton_chat"
+        logo: "assets/items/telegram.svg"
+        subtitle: "telegram"
+        url: "https://t.me/treeton_chat"
+
+  - name: "Дарим Кедры"
+    items:
+      - name: "Дарим Кедры"
+        logo: "assets/items/givecedar-rf.svg"
+        subtitle: "даримкедры.рф"
+        url: "https://даримкедры.рф"
+      - name: "GitHub"
+        subtitle: "treeton-org/givecedar-rf"
+        logo: "assets/items/github.svg"
+        url: "https://github.com/treeton-org/givecedar-rf"
+      - name: "Figma"
+        subtitle: "design"
+        logo: "assets/items/figma.svg"
+        url: "https://www.figma.com/file/5nWnlJRq6A2NSVGPNt41Vp"
+      - name: "treetonium_info"
+        logo: "assets/items/telegram.svg"
+        subtitle: "telegram channel"
+        url: "https://t.me/treetonium_info"
+      - name: "Заказ кедров"
+        logo: "assets/items/telegram.svg"
+        subtitle: "telegram"
+        url: "https://t.me/+aTpIbg3esacyMTY6"
+      - name: "treetonium"
+        logo: "assets/items/instagram.svg"
+        subtitle: "instagram"
+        url: "https://instagram.com/treetonium?igshid=YmMyMTA2M2Y="
+      - name: "Тритония"
+        logo: "assets/items/vk.svg"
+        subtitle: "vk"
+        url: "https://vk.com/public204960149"
+
+  - name: "DevOps"
+    items:
+      - name: "Traefik"
+        logo: "assets/items/traefik.svg"
+        url: "https://traefik.treeton.org"
+      - name: "Tempo"
+        logo: "assets/items/tempo.svg"
+        url: "https://tempo.treeton.org/metrics"
