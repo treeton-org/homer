@@ -50,6 +50,14 @@ services:
         subtitle: "design"
         logo: "assets/items/figma.svg"
         url: "https://www.figma.com/file/rfDi7EGAewhooWI5ChBMmH"
+      - name: "GraphQL"
+        subtitle: "API"
+        logo: "assets/items/graphql.svg"
+        url: "https://gql.treeton.org"
+      - name: "Explorer"
+        subtitle: "API"
+        logo: "assets/items/explorer.svg"
+        url: "https://gql.treeton.org"
 
   - name: "Публичные чаты"
     items:
